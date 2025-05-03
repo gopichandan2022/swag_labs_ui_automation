@@ -4,7 +4,7 @@ const { test, expect } = require('@playwright/test');
 const { loginInfo } = require('../playwright.config');
 const { LogoutPage } = require('../page-objects/LogoutPage');
 
-test.describe("==2 -Validate Price Sorting Functionality", () => {
+test.describe("Validate Price Sorting Functionality", () => {
   let loginPage;
   let productsPage;
   let logoutPage;

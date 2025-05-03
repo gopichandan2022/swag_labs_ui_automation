@@ -4,7 +4,7 @@ const { ProductsPage } = require('../page-objects/ProductsPage');
 const { test, expect } = require('@playwright/test');
 const { loginInfo } = require('../playwright.config');
 
-test.describe("==3 -Validate Z-A Sorting Functionality", () => {
+test.describe("Validate Z-A Sorting Functionality", () => {
   let loginPage;
   let productsPage;
   let logoutPage;

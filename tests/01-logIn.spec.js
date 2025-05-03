@@ -3,7 +3,7 @@ const { LogoutPage } = require('../page-objects/LogoutPage');
 const { test, expect } = require('@playwright/test');
 const { loginInfo } = require('../playwright.config');
 
-test.describe("==1 -Validate Login Functionality", () => {
+test.describe("Validate Login Functionality", () => {
 
   let loginPage;
   let logoutPage;

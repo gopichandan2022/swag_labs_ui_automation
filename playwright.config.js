@@ -18,6 +18,8 @@ module.exports = defineConfig({
   workers: 1,
   use: {
     trace: 'on-first-retry',
+    screenshot: 'on',
+    video: 'on'
   },
   projects: [
     {
